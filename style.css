@@ -466,7 +466,7 @@ header.scrolled .mobile-menu {
     -webkit-backdrop-filter: blur(10px);
     border: 1.5px solid rgba(230, 57, 70, 0.3);
     border-radius: 100px;
-    color: #8b0000;
+    color: #fff;
     position: absolute;
     top: 0;
     right: 0;
