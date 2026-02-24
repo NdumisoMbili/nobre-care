@@ -30,4 +30,4 @@ A premium, high-fidelity emergency response platform designed for the complex ne
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-Designed and developed by the Nobre Care Engineering Team.
+Designed and developed by the Quintet Data Synergy Team.
