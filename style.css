@@ -2143,4 +2143,12 @@ footer {
     .drone-visual img {
         height: 300px;
     }
+
+    .emergency-btn {
+        bottom: 20px;
+        right: 20px;
+        width: 52px;
+        height: 52px;
+        font-size: 18px;
+    }
 }
