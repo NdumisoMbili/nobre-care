@@ -175,23 +175,31 @@
             </div>
             <div class="features-grid">
                 <div class="feature-card reveal" style="transition-delay:0.1s">
-                    <div class="feature-icon"><i class="fas fa-comments"></i></div>
-                    <h3>Crisis Communication</h3>
+                    <div class="feature-header">
+                        <div class="feature-icon"><i class="fas fa-comments"></i></div>
+                        <h3>Crisis Communication</h3>
+                    </div>
                     <p>Two-way communication during disasters to coordinate response efforts effectively.</p>
                 </div>
                 <div class="feature-card reveal" style="transition-delay:0.2s">
-                    <div class="feature-icon"><i class="fas fa-bell"></i></div>
-                    <h3>Alert Systems</h3>
+                    <div class="feature-header">
+                        <div class="feature-icon"><i class="fas fa-bell"></i></div>
+                        <h3>Alert Systems</h3>
+                    </div>
                     <p>Real-time emergency alerts and notifications about potential dangers in your area.</p>
                 </div>
                 <div class="feature-card reveal" style="transition-delay:0.3s">
-                    <div class="feature-icon"><i class="fas fa-chart-line"></i></div>
-                    <h3>Risk Assessment</h3>
+                    <div class="feature-header">
+                        <div class="feature-icon"><i class="fas fa-chart-line"></i></div>
+                        <h3>Risk Assessment</h3>
+                    </div>
                     <p>Comprehensive evaluation of risks during and after disasters to prioritize response.</p>
                 </div>
                 <div class="feature-card reveal" style="transition-delay:0.4s">
-                    <div class="feature-icon"><i class="fas fa-map-marked-alt"></i></div>
-                    <h3>Real-time Tracking</h3>
+                    <div class="feature-header">
+                        <div class="feature-icon"><i class="fas fa-map-marked-alt"></i></div>
+                        <h3>Real-time Tracking</h3>
+                    </div>
                     <p>Live tracking of emergency units en route for complete transparency.</p>
                 </div>
             </div>
@@ -758,9 +766,9 @@
                     <h2>Emergency Help in Your Pocket</h2>
                     <p>Download the Nobre app for instant access to all emergency services. One tap is all it takes.</p>
                     <div class="app-buttons">
-                        <a href="#" class="app-btn"><i class="fab fa-apple"></i><span><small>Download on
+                        <a href="javascript:void(0)" onclick="showToast('App coming soon!')" class="app-btn"><i class="fab fa-apple"></i><span><small>Download on
                                     the</small><strong>App Store</strong></span></a>
-                        <a href="#" class="app-btn"><i class="fab fa-google-play"></i><span><small>Get it
+                        <a href="javascript:void(0)" onclick="showToast('App coming soon!')" class="app-btn"><i class="fab fa-google-play"></i><span><small>Get it
                                     on</small><strong>Google Play</strong></span></a>
                     </div>
                 </div> <!-- End app-content -->
@@ -1024,6 +1032,15 @@
     </footer>
 
     <a href="tel:+2348005551911" class="emergency-btn" aria-label="Emergency Call"><i class="fas fa-phone-alt"></i></a>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast">
+        <div class="toast-icon"><i class="fas fa-info-circle"></i></div>
+        <div class="toast-content">
+            <h4>Nobre Care</h4>
+            <span id="toast-message"></span>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>

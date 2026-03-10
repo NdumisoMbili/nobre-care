@@ -182,4 +182,17 @@ setTimeout(() => {
             });
         }, 100);
     }, { passive: true });
+
+    // Toast Notification logic
+    window.showToast = function(message) {
+        const toast = document.getElementById('toast');
+        const msgEl = document.getElementById('toast-message');
+        if (toast && msgEl) {
+            msgEl.textContent = message;
+            toast.classList.add('show');
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 3000);
+        }
+    };
 })();
