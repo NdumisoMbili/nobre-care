@@ -1585,6 +1585,12 @@ footer {
     text-transform: uppercase;
 }
 
+footer .logo-shield,
+footer .logo-pulse {
+    stroke: #fff;
+    filter: none;
+}
+
 .footer-col ul {
     list-style: none;
 }
